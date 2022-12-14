@@ -1,0 +1,38 @@
+[
+    {
+        "image": "assets/Car-dealer.png",
+        "title": "Car dealer (Buy and Sell)",
+        "id": 1,
+        "photo_frame": "assets/car-dealer-frame.png",
+        "server": "https://github.com/sheikh-riyadh/used-products-resale-server",
+        "client": "https://github.com/sheikh-riyadh/used-products-resale-clients",
+        "live": "https://car-dealer-7a2f7.web.app/",
+        "details": "User role: Admin. Seller. Buyer, Admin: Admin can control all sellers and buyers. If the admin wants to delete a seller or buyer the admin can do it., Seller: If a seller wants to sell his car then the seller must create an account and the seller can advertise his car from the dashboard., Buyer: The buyer can buy the car according to his choice and can see the list of all the cars purchased by him from his dashboard",
+        "front_end": "React JS, Tailwind CSS, Daisy UI, Firebase authentication, React router",
+        "back_end": "Node JS, Express JS, MongoDB, JWT"
+    },
+    {
+        "image": "assets/reviews-service.png",
+        "title": "Serivce Review",
+        "id": 2,
+        "photo_frame": "assets/review-frame.png",
+        "server": "https://github.com/sheikh-riyadh/service-review-server",
+        "client": "https://github.com/sheikh-riyadh/service-review-client",
+        "live": "https://review-bc726.web.app/",
+        "details": "This website user can add reviews to any service according to his choice and for that user must create an account., After logging in the user can see all the reviews on the service from my review page.",
+        "front_end": "React JS, Tailwind CSS, Daisy UI, Firebase authentication, React router",
+        "back_end": "Node JS, Express JS, MongoDB, JWT"
+    },
+    {
+        "image": "assets/educrat.png",
+        "title": "Educrat (Learning platform)",
+        "id": 3,
+        "photo_frame": "assets/educrat-frame.png",
+        "server": "https://github.com/sheikh-riyadh/learning-platform-server",
+        "client": "https://github.com/sheikh-riyadh/learning-platform-client",
+        "live": "https://courses-d9dfd.web.app/",
+        "details": "The service that the user of this website will get is that the user can buy books according to his choice and for that the user must create an account.",
+        "front_end": "React JS, Daisy UI, Firebase authentication, React router",
+        "back_end": "Node JS, Express JS, MongoDB"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "image": "assets/html.png",
+        "title": "HTML-5"
+    },
+    {
+        "image": "assets/css.png",
+        "title": "CSS-3"
+    },
+    {
+        "image": "assets/bootstrap.png",
+        "title": "Bootstrap-5"
+    },
+    {
+        "image": "assets/tailwind.png",
+        "title": "Tailwind CSS"
+    },
+    {
+        "image": "assets/js.png",
+        "title": "JavaScript"
+    },
+    {
+        "image": "assets/react.png",
+        "title": "React JS"
+    },
+    {
+        "image": "assets/nodejs.png",
+        "title": "Node JS"
+    },
+    {
+        "image": "assets/express.png",
+        "title": "Express JS"
+    },
+    {
+        "image": "assets/MongoDB.png",
+        "title": "MongoDB"
+    },
+    {
+        "image": "assets/firebase.png",
+        "title": "Firebase"
+    }
+]
