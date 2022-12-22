@@ -36,7 +36,7 @@ const Modal = ({ modalData }) => {
                     <div>
                         <h2 className='text-4xl my-5 font-bold'>Technologies</h2>
                         <p className='font-bold text-lg'>Front-end: {modalData?.front_end}</p>
-                        <p className='font-bold text-lg'>Front-end: {modalData?.back_end}</p>
+                        <p className='font-bold text-lg'>Back-end: {modalData?.back_end}</p>
                         <h1 className='text-4xl my-5 font-bold'>Featurs</h1>
                         {
                             details?.map((detail, i) => {
