@@ -21,7 +21,7 @@
         "live": "https://review-bc726.web.app/",
         "details": "This website user can add reviews to any service according to his choice and for that user must create an account., After logging in the user can see all the reviews on the service from my review page.",
         "front_end": "React JS, Tailwind CSS, Daisy UI, Firebase authentication, React router",
-        "back_end": "Node JS, Express JS, MongoDB, JWT"
+        "back_end": "Node JS, Express JS, MongoDB"
     },
     {
         "image": "assets/educrat.png",
@@ -31,7 +31,7 @@
         "server": "https://github.com/sheikh-riyadh/learning-platform-server",
         "client": "https://github.com/sheikh-riyadh/learning-platform-client",
         "live": "https://courses-d9dfd.web.app/",
-        "details": "The service that the user of this website will get is that the user can buy books according to his choice and for that the user must create an account.",
+        "details": "The service that the user of this website will get is that the user can buy courses according to his choice and for that the user must create an account.",
         "front_end": "React JS, Daisy UI, Firebase authentication, React router",
         "back_end": "Node JS, Express JS, MongoDB"
     }
