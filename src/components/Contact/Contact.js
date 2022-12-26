@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import contact from './contact.jpg'
 import emailjs from '@emailjs/browser'
 import toast, { Toaster } from 'react-hot-toast';
@@ -6,13 +6,21 @@ import { useTitle } from '../../hooks/UserTitle';
 
 const Contact = () => {
     useTitle('| contact')
+    const [loading, setLoading] = useState(true)
+    setTimeout(() => {
+        setLoading(false)
+    }, [1500])
     const handleEmail = (e) => {
+        setLoading(true)
         e.preventDefault()
-        emailjs.sendForm('service_0n0szin', 'template_ledrdxr', e.target, 'DWSCI3qaYK6a9UuIi').then(() => {
+        emailjs.sendForm('service_34s6klf', 'template_ledrdxr', e.target, 'DWSCI3qaYK6a9UuIi').then(() => {
             toast("Send message successfull")
             e.target.name.value = ''
             e.target.email.value = ''
             e.target.message.value = ''
+            setTimeout(() => {
+                setLoading(false)
+            }, [1500])
         }).then(e => console.log(e))
     }
     return (
@@ -32,7 +40,7 @@ const Contact = () => {
                         </div>
                         <div className="form-control mt-6">
                             <button className="btn bg-gradient-to-r from-[#13F26D] to-[#0092A4] border-0
-                                text-white">Send message</button>
+                                text-white">{loading ? "Loading..." : "Send message"}</button>
                         </div>
                     </form>
                 </div>
