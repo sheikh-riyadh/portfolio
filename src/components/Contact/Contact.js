@@ -14,13 +14,13 @@ const Contact = () => {
         setLoading(true)
         e.preventDefault()
         emailjs.sendForm('service_34s6klf', 'template_ledrdxr', e.target, 'DWSCI3qaYK6a9UuIi').then(() => {
-            toast("Send message successfull")
             e.target.name.value = ''
             e.target.email.value = ''
             e.target.message.value = ''
             setTimeout(() => {
                 setLoading(false)
             }, [1500])
+            toast("Send message successfull")
         }).then(e => console.log(e))
     }
     return (
