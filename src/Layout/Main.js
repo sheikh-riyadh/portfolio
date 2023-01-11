@@ -53,7 +53,7 @@ const Main = () => {
                                 <FaEnvelope></FaEnvelope><Link to='/contact'>Contact</Link>
                             </div>
                             <div className='text-start text-xl flex items-center gap-3'>
-                                <a download href='./Sheikh-riyadh-portfolio.pdf' className='btn bg-gradient-to-r from-[#13F26D] to-[#0092A4] border-0
+                                <a download href='https://drive.google.com/file/d/1IxvQSYMvT20EFt8widR6VU2YG3qGNGH1/view?usp=sharing' className='btn bg-gradient-to-r from-[#13F26D] to-[#0092A4] border-0
                                 text-white' target="_blank" rel="noreferrer">Download Resume</a>
                             </div>
                         </div>
