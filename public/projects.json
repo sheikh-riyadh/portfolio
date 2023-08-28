@@ -12,27 +12,27 @@
         "back_end": "Node JS, Express JS, MongoDB, JWT"
     },
     {
-        "image": "assets/reviews-service.png",
-        "title": "Serivce Review",
+        "image": "assets/repliq-home.png",
+        "title": "Fiama eCommerce",
         "id": 2,
-        "photo_frame": "assets/review-frame.png",
-        "server": "https://github.com/sheikh-riyadh/service-review-server",
-        "client": "https://github.com/sheikh-riyadh/service-review-client",
-        "live": "https://review-bc726.web.app/",
-        "details": "This website user can add reviews to any service according to his choice and for that user must create an account., After logging in the user can see all the reviews on the service from my review page.",
-        "front_end": "React JS, Tailwind CSS, Daisy UI, Firebase authentication, React router",
+        "photo_frame": "assets/repliq.jpeg",
+        "server": "https://github.com/sheikh-riyadh/repliq-ecommerce-server",
+        "client": "https://github.com/sheikh-riyadh/repliq-ecommerce-client",
+        "live": "https://repliq-task.web.app/",
+        "details": "In this website users can buy there products and for that user must be create an account for buying products., And there is an admin role. the admin controll all the functionality like: add products delete product. see all users and also see all the products list",
+        "front_end": "React JS, Tailwind CSS, Daisy UI, Firebase authentication, React router tanstack query, axios.",
         "back_end": "Node JS, Express JS, MongoDB"
     },
     {
-        "image": "assets/educrat.png",
-        "title": "Educrat (Learning platform)",
+        "image": "assets/quizo.png",
+        "title": "Quizo (Learning platform)",
         "id": 3,
-        "photo_frame": "assets/educrat-frame.png",
-        "server": "https://github.com/sheikh-riyadh/learning-platform-server",
-        "client": "https://github.com/sheikh-riyadh/learning-platform-client",
-        "live": "https://courses-d9dfd.web.app/",
-        "details": "The service that the user of this website will get is that the user can buy courses according to his choice and for that the user must create an account.",
-        "front_end": "React JS, Daisy UI, Firebase authentication, React router",
-        "back_end": "Node JS, Express JS, MongoDB"
+        "photo_frame": "assets/quizo-frame.jpeg",
+        "server": "https://github.com/sheikh-riyadh/",
+        "client": "https://github.com/sheikh-riyadh/quiz-crackerz",
+        "live": "https://sheikh-quizo.netlify.app/home",
+        "details": "On this website, the user can test her web development knowledge.,There are 4 types of options 1. React JS. 2. javascript. 3. CSS3. 3. GitHub., Users can select options according to their preference., If for some reason the user is not able to answer the question, then he/she can click on the eye icon to give the correct answer",
+        "front_end": "React JS, React router, Tailwind CSS, JavaScript, Toast, JSON API",
+        "back_end": "null"
     }
 ]

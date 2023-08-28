@@ -1,34 +1,40 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import contact from './contact.jpg'
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 import { useTitle } from '../../hooks/UserTitle';
 
 const Contact = () => {
     useTitle('| contact')
-    const [loading, setLoading] = useState(true)
-    setTimeout(() => {
-        setLoading(false)
-    }, [1500])
-    const handleEmail = (e) => {
+    const [loading, setLoading] = useState(false)
+   
+    const form = useRef();
+
+
+    const sendEmail = (e) => {
         setLoading(true)
-        e.preventDefault()
-        emailjs.sendForm('service_34s6klf', 'template_ledrdxr', e.target, 'DWSCI3qaYK6a9UuIi').then(() => {
-            e.target.name.value = ''
-            e.target.email.value = ''
-            e.target.message.value = ''
-            setTimeout(() => {
+        e.preventDefault();
+        emailjs.sendForm("service_0simhgi", "template_ledrdxr", form.current, "DWSCI3qaYK6a9UuIi")
+          .then((res) => {
+            if(res.status){
+                e.target.name.value = ''
+                e.target.email.value = ''
+                e.target.message.value = ''
+                toast.success("Send message successfully")
                 setLoading(false)
-            }, [1500])
-            toast("Send message successfull")
-        }).then(e => console.log(e))
-    }
+            }
+              
+          }, () => {
+              toast.error("Something went wrong ): ")
+              setLoading(false)
+          });
+      };
     return (
         <div className='lg:px-24 mx-5 text-start'>
             <h1 className='text-transparent bg-clip-text bg-gradient-to-br from-[#13F26D] to-[#0092A4] text-4xl my-5 font-bold uppercase'>Contact</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 bg-[#0A1413] rounded-lg'>
                 <div className="">
-                    <form onSubmit={handleEmail} className="card-body">
+                    <form ref={form} onSubmit={sendEmail} className="card-body">
                         <div className="form-control mt-3 text-black">
                             <input type="name" name='name' placeholder="Name" className="input input-bordered" required />
                         </div>
