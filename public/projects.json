@@ -1,38 +1,33 @@
 [
-    {
-        "image": "assets/Car-dealer.png",
-        "title": "Car dealer (Buy and Sell)",
-        "id": 1,
-        "photo_frame": "assets/car-dealer-frame.png",
-        "server": "https://github.com/sheikh-riyadh/used-products-resale-server",
-        "client": "https://github.com/sheikh-riyadh/used-products-resale-clients",
-        "live": "https://car-dealer-7a2f7.web.app/",
-        "details": "User role: Admin. Seller. Buyer, Admin: Admin can control all sellers and buyers. If the admin wants to delete a seller or buyer the admin can do it., Seller: If a seller wants to sell his car then the seller must create an account and the seller can advertise his car from the dashboard., Buyer: The buyer can buy the car according to his choice and can see the list of all the cars purchased by him from his dashboard",
-        "front_end": "React JS, Tailwind CSS, Daisy UI, Firebase authentication, React router",
-        "back_end": "Node JS, Express JS, MongoDB, JWT"
-    },
-    {
-        "image": "assets/repliq-home.png",
-        "title": "Fiama eCommerce",
-        "id": 2,
-        "photo_frame": "assets/repliq.jpeg",
-        "server": "https://github.com/sheikh-riyadh/repliq-ecommerce-server",
-        "client": "https://github.com/sheikh-riyadh/repliq-ecommerce-client",
-        "live": "https://repliq-task.web.app/",
-        "details": "In this website users can buy there products and for that user must be create an account for buying products., And there is an admin role. the admin controll all the functionality like: add products delete product. see all users and also see all the products list",
-        "front_end": "React JS, Tailwind CSS, Daisy UI, Firebase authentication, React router tanstack query, axios.",
-        "back_end": "Node JS, Express JS, MongoDB"
-    },
-    {
-        "image": "assets/quizo.png",
-        "title": "Quizo (Learning platform)",
-        "id": 3,
-        "photo_frame": "assets/quizo-frame.jpeg",
-        "server": "https://github.com/sheikh-riyadh/",
-        "client": "https://github.com/sheikh-riyadh/quiz-crackerz",
-        "live": "https://sheikh-quizo.netlify.app/home",
-        "details": "On this website, the user can test her web development knowledge.,There are 4 types of options 1. React JS. 2. javascript. 3. CSS3. 3. GitHub., Users can select options according to their preference., If for some reason the user is not able to answer the question, then he/she can click on the eye icon to give the correct answer",
-        "front_end": "React JS, React router, Tailwind CSS, JavaScript, Toast, JSON API",
-        "back_end": "null"
-    }
+  {
+    "image": "assets/captake_hero_section.jpg",
+    "title": "Captake (eCommerce)",
+    "id": 1,
+    "photo_frame": "assets/Riad.jpg",
+    "seller": "https://admin-center-32881.web.app/",
+    "user": "https://seller-center-32880.web.app/",
+    "live": "https://captake-web.web.app/",
+    "details": "<strong style='text:18px'>User role</strong>: <span>Admin. Seller. User</span>, <strong style='text:18px'>Admin</strong>: Admin can control all seller and user. If the admin want to delete block a seller or user from the admin dashboard., <strong style='text:18px'>Seller</strong>: If a seller want to sell his products then the seller must create an account with the verify email and the seller can manage his products from the dashboard., <strong style='text:18px'>User</strong>: The user can buy the product according to his choice and can see the list of all the products purchased by him from his dashboard., <strong style='text:18px'>Forget Password</strong>: If the seller or user forget their password they can recover passoword., <strong style='text:18px'>Report to admin</strong>: If the seller scam with user the user can report againest to seller., <strong style='text:18px'>Questions and Answer</strong>: If user have a specific question about product the user can make a question from single product page., <strong style='text:18px'>Cancel Order</strong>: The user can cancel there order if she/he want., <strong style='text:18px'>Rating System</strong>: User can share comment about there order product when order is completed, <strong style='text:18px'>Global search</strong>: user can find there specific product from the global search field.,",
+    "front_end": "React JS, Tailwind CSS, Redux, SwiperJS, React hook form, React router, MomentJS.",
+    "back_end": "NodeJS, ExpressJS, MongoDB, JWT, MomentJS, HTTP only cookie."
+  },
+  {
+    "image": "assets/schooling_hero.jpg",
+    "title": "Schooling (Education)",
+    "id": 2,
+    "photo_frame": "assets/Schooling.jpg",
+    "user": "https://web.schooling.app/",
+    "live": "https://schooling.app/",
+    "details": "<strong style='text:18px'>User role</strong>: <span>School. Student. Parents. and Tutor.</span>, <strong style='text:18px'>School</strong>: In this website users can buy there products and for that user must be create an account for buying products., <strong style='text:18px'>Student</strong>: And there is an admin role. the admin controll all the functionality like: add products delete product., <strong style='text:18px'>Parents</strong>: see all users and also see all the products list., <strong style='text:18px'>Tutor</strong>: Tutor see all users and also see all the products list.",
+    "front_end": "React JS, Tailwind CSS, Redux, OTP authentication, React router, SwiperJS, React hook form, MUI etc."
+  },
+  {
+    "image": "assets/proggamoy_quran_hero.jpg",
+    "title": "Proggamoy Quran (Learning platform)",
+    "id": 3,
+    "photo_frame": "assets/Proggamoy.jpg",
+    "live": "https://proggamoyquran.vercel.app/",
+    "details": "On this website users can learn the Quran. They can read and listen to the Quran word by word with meanings provided for each Arabic word., When a user plays an ayah the next ayah automatically plays after it ends with auto-scrolling., Additionally users can customize their font settings including Arabic words. word translations and ayah translations.",
+    "front_end": "React JS, React router, Tailwind CSS, Redux, SwiperJS, React Icons, Framer Motion, Toast etc."
+  }
 ]
